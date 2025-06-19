@@ -1,0 +1,27 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React Playground by Kushagra",
+  "scripts": {
+    "start": "parcel ep1/index.html",
+    "build": "parcel build ep1/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushagratiwari1403/React-Playground.git"
+  },
+  "author": "Kushagra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushagratiwari1403/React-Playground/issues"
+  },
+  "homepage": "https://github.com/kushagratiwari1403/React-Playground#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
