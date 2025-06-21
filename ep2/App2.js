@@ -11,6 +11,7 @@ const JSXHeading = () => {
     )
 };
 
+const title = "King Kushagra"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -27,9 +28,11 @@ const Heading = () => <h2> Second Way: This is another made using React Function
 const HeadingComponent2 = () => (
     <div id="container">
         <JSXHeading />
-        <h2 className="Heading2"> Third Way: This is one more another made using React Functional Component </h2>
+        <h2 className="Heading2"> Third Another Way: This is one more another made using React Functional Component </h2>
+        <h2> {title} </h2>
     </div>
 );
+
 
 
 root.render(<HeadingComponent2 />);
