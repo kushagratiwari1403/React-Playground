@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is React Playground by Kushagra",
   "scripts": {
-    "start": "parcel ep2/index.html",
+    "start": "parcel index.html",
     "build": "parcel build ep1/index.html",
     "test": "jest"
   },
