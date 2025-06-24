@@ -9,7 +9,7 @@ const Body = () => {
 
     // Normal JS Variable
     // let demoListRestaurnat = null;
-    
+
 
     // Normal JS Variable
     // let demoListRestaurantOld = [
@@ -100,10 +100,10 @@ const Body = () => {
             <div className="filter">
                 <button className="filter-btn"
                     onClick={() => {
-                       let filteredList = demoListRestaurant.filter(
+                        let filteredList = demoListRestaurant.filter(
                             (res) => res.info.avgRating > 4.1);
 
-                            setdemoListRestaurant(filteredList)
+                        setdemoListRestaurant(filteredList)
 
                     }}
                 > Top Rated </button> </div>
@@ -118,3 +118,5 @@ const Body = () => {
 };
 
 export default Body
+
+// Till Ep 5 Let's Get Hooked
